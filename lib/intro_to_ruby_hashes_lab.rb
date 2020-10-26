@@ -17,7 +17,7 @@ def update_counting_hash(hash, key)
   
   if !key do
     hash[key] = 1 
-  else 
+  else do
     hash[key] += 1
   end
 end
